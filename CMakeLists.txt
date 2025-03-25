@@ -3,7 +3,7 @@ project(exo1 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(exo1 main.c
+add_executable(exo1 exo1.c
         my_strncpy.h
         my_strncpy.c)
 
@@ -15,3 +15,6 @@ add_executable(test_my_strncpy test_my_strncpy.c
         my_strncpy.h
         my_strncpy.c)
 target_link_libraries(test_my_strncpy cunit)
+
+project(exo2 C)
+add_executable(exo2 exo2.c)
