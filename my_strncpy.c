@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <string.h>
+
 /**
  * Copy the first `len` characters of `argv` to `result`.
  * The caller is responsible for freeing the memory allocated for `result`.

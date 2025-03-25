@@ -22,7 +22,6 @@ int main(const int argc, char *argv[]) {
     printf("Argument 1: %s\n", argv[1]);
     printf("Argument 2: %s\n", argv[2]);
 
-    // char *result;
     char* result = my_strncpy(argv[1], n);
     printf("result: %s\n", result);
     free(result);
