@@ -1,10 +1,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-/**
- * Copy the first `len` characters of `argv` to `result`.
- * The caller is responsible for freeing the memory allocated for `result`.
- */
 char* my_strncpy(const char *str, const long len) {
     const unsigned long min_len = strlen(str) > len ? len : strlen(str);
 
